@@ -44,6 +44,10 @@ describe Roman do
 
 	it "Numero X" do
 		@roman.getNumber("X").should == 10
-	end 		
+	end 	
+
+	it "Numero XI" do
+		@roman.getNumber("XI").should == 11
+	end 	
 
 end
