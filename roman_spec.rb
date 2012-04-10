@@ -30,4 +30,8 @@ describe Roman do
 		@roman.getNumber("VI").should == 6
 	end 
 
+	it "Numero VII" do
+		@roman.getNumber("VII").should == 7
+	end 
+
 end
