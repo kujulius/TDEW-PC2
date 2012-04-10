@@ -1,11 +1,16 @@
 class Roman
 
 	def getNumber(roman)
-		if roman == "I"
-			return 1
-		else
-			return 2
-		end	
+
+		numero = 0
+
+		roman.each_char { |c|
+			if c == "I"
+				numero = numero + 1
+			end
+		}
+
+		return numero
 	end
 
 end
