@@ -84,6 +84,18 @@ describe Roman do
 
 	it "Numero XX" do
 		@roman.getNumber("XX").should == 20
-	end 		
+	end 	
+
+	it "Numero XXX" do
+		@roman.getNumber("XXX").should == 30
+	end 
+
+	it "Numero L" do
+		@roman.getNumber("L").should == 50
+	end 
+
+	it "Numero C" do
+		@roman.getNumber("C").should == 100
+	end 	
 
 end

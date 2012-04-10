@@ -21,7 +21,11 @@ class Roman
 			elsif c == "V"
 				numero = numero + 5	
 			elsif c == "X"
-				numero = numero + 10					
+				numero = numero + 10		
+			elsif c == "L"
+				numero = numero + 50	
+			elsif c == "C"
+				numero = numero + 100						
 			end
 
 			letraAnterior = c
