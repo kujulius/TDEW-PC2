@@ -7,7 +7,7 @@ describe Roman do
 	end
 
 	it "Numero I" do
-		@roman.getnumber("I").should == 1
+		@roman.getNumber("I").should == 1
 	end
 
 end
