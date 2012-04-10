@@ -58,4 +58,8 @@ describe Roman do
 		@roman.getNumber("XIII").should == 13
 	end 	
 
+	it "Numero XIV" do
+		@roman.getNumber("XIV").should == 14
+	end 		
+
 end
