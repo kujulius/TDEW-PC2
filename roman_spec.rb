@@ -22,4 +22,8 @@ describe Roman do
 		@roman.getNumber("IV").should == 4
 	end
 
+	it "Numero V" do
+		@roman.getNumber("V").should == 5
+	end
+
 end
