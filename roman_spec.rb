@@ -70,4 +70,12 @@ describe Roman do
 		@roman.getNumber("XVI").should == 16
 	end 	
 
+	it "Numero XVII" do
+		@roman.getNumber("XVII").should == 17
+	end 	
+
+	it "Numero XVIII" do
+		@roman.getNumber("XVIII").should == 18
+	end 	
+
 end
