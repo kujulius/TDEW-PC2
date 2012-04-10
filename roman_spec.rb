@@ -26,4 +26,8 @@ describe Roman do
 		@roman.getNumber("V").should == 5
 	end
 
+	it "Numero VI" do
+		@roman.getNumber("VI").should == 6
+	end 
+
 end
