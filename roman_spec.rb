@@ -50,4 +50,12 @@ describe Roman do
 		@roman.getNumber("XI").should == 11
 	end 	
 
+	it "Numero XII" do
+		@roman.getNumber("XII").should == 12
+	end 	
+
+	it "Numero XIII" do
+		@roman.getNumber("XIII").should == 13
+	end 	
+
 end
