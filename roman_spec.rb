@@ -60,6 +60,10 @@ describe Roman do
 
 	it "Numero XIV" do
 		@roman.getNumber("XIV").should == 14
-	end 		
+	end 
+
+	it "Numero XV" do
+		@roman.getNumber("XV").should == 15
+	end 
 
 end
