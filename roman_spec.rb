@@ -18,4 +18,8 @@ describe Roman do
 		@roman.getNumber("III").should == 3
 	end
 
+	it "Numero IV" do
+		@roman.getNumber("IV").should == 4
+	end
+
 end
