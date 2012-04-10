@@ -19,7 +19,7 @@ class Roman
 					end					
 				end								
 			elsif c == "V"
-				numero = numero + 5
+				numero = numero + 5	
 			end
 
 			letraAnterior = c
