@@ -42,4 +42,8 @@ describe Roman do
 		@roman.getNumber("IX").should == 9
 	end 	
 
+	it "Numero X" do
+		@roman.getNumber("X").should == 10
+	end 		
+
 end
